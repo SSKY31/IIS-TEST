@@ -26,7 +26,7 @@ def get_args():
     args = parser.parse_args()
     args = EasyDict(vars(args))
 
-    ws_path = "/workspace/IIS-test"
+    ws_path = "/workspace/IIS-TEST"
     args.env_config = os.path.join(ws_path, args.env_config)
     args.dynamic_config = os.path.join(ws_path, args.dynamic_config)
 
